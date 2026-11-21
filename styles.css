@@ -4,12 +4,21 @@
   padding: 32px; /* Wewnętrzny odstęp od krawędzi karty. */
   border: 1px solid #4cffb0; /* Zielone obramowanie karty. */
   border-radius: 16px; /* Zaokrągla narożniki. */
-  background: #17231f; /* Odróżnia kartę od tła strony. */
+  background: #19231f; /* Odróżnia kartę od tła strony. */
+}
+
+.maincard {
+  place-items: center;
+  width: min(100%, 240px);
+  padding: 24px;
+  border: 1px solid #ffff;
+  border-radius: 16px;
+  background: #19231f;
 }
 
 /* Mała etykieta nad głównym nagłówkiem. */
 .eyebrow {
-  color: #4cffb0; /* Kolor akcentu. */
+  color: #eef3f1; /* Kolor akcentu. */
   font-size: 12px; /* Zmniejsza tekst etykiety. */
   letter-spacing: 0.12em; /* Zwiększa odstępy między literami. */
 }
@@ -66,4 +75,9 @@ main {
   display: grid; /* Włącza układ Grid. */
   place-items: center; /* Wyśrodkowuje zawartość w obu osiach. */
   padding: 24px; /* Odsuwa treść od krawędzi. */
+}
+
+body {
+  place-items: center;
+  padding: 24px;
 }
